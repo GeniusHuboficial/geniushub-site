@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7fa;
+    color: #111827;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: #0f172a;
+    padding: 1.5rem;
+    text-align: center;
+  }
+  
+  .logo {
+    height: 60px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .headline {
+    background-color: #1e40af;
+    color: white;
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+  
+  .headline h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .headline p {
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  }
+  
+  h2 {
+    color: #1e3a8a;
+    margin-bottom: 1rem;
+    border-left: 5px solid #3b82f6;
+    padding-left: 0.5rem;
+  }
+  
+  ul {
+    padding-left: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  li {
+    margin-bottom: 0.7rem;
+  }
+  
+  .price-section {
+    background: #e0f2fe;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    margin: 2rem 0;
+  }
+  
+  .price-section strong {
+    font-size: 1.5rem;
+    color: #0284c7;
+  }
+  
+  .buy-button {
+    background-color: #0ea5e9;
+    color: white;
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    margin-top: 1rem;
+  }
+  
+  .buy-button:hover {
+    background-color: #0369a1;
+  }
+  
+    .buy-button {
+        background-color: #0ea5e9;
+        color: white;
+        font-size: 1.2rem;
+        padding: 1rem 2rem;
+        border: none;
+        border-radius: 0.5rem;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        display: inline-block;
+        margin-top: 1rem;
+      }
+      
+      .buy-button:hover {
+        background-color: #0369a1;
+      }
+      
